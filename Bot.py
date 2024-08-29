@@ -35,7 +35,7 @@ class Bot_Youtube:
               #botão de reiniciar : Point(x=82, y=56)
               for x in range(n):
                     bt.click(x = 82 , y = 56 )
-        
+                    
       def main(self):
               bt.alert("O código vai começar. Não utilize nada do computador até o código finalizar!")
               self.abrir_navegador()
@@ -46,7 +46,7 @@ class Bot_Youtube:
               time.sleep(self.minutagem)
               self.reiniciar(n = self.contador)
               pass
-bot = Bot_Youtube(link = 'Youtube',minutagem=194, contagem=5,titulo='Por que Echic')
+bot = Bot_Youtube(link = 'Youtube',minutagem=194, contagem=5,titulo='')
 bot.main()
 
 #bt.moveTo(x=688, y=110) #reais coordenadas x=688, y=110 para a barra do yt ,x=595, y=55 para a do navegador 
